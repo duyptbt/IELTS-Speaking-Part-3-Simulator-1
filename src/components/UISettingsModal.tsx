@@ -12,6 +12,8 @@ import {
   Sun,
   Moon,
   Zap,
+  GraduationCap,
+  BookOpen,
 } from 'lucide-react';
 import { UISettings, UITheme, TextScale, QuestionCardStyle, VisualizerStyle } from '../types';
 
@@ -43,6 +45,27 @@ export const UISettingsModal: React.FC<UISettingsModalProps> = ({
 
   const themes: { id: UITheme; name: string; desc: string; icon: any; colorClass: string }[] = [
     {
+      id: 'cambridge-navy',
+      name: 'Cambridge Royal Navy',
+      desc: 'Prestigious university navy canvas with warm gold & ivory accents.',
+      icon: GraduationCap,
+      colorClass: 'bg-[#0d172a] border-amber-400/60 text-amber-300',
+    },
+    {
+      id: 'oxford-parchment',
+      name: 'Oxford Scholarly Parchment',
+      desc: 'Classic ivory university library style with deep wine & slate typography.',
+      icon: BookOpen,
+      colorClass: 'bg-[#f8f6f0] border-amber-800/40 text-amber-900',
+    },
+    {
+      id: 'academic-emerald',
+      name: 'Academic Emerald',
+      desc: 'Focused dark forest palette with mint accents.',
+      icon: Sparkles,
+      colorClass: 'bg-emerald-950 border-emerald-500/50 text-emerald-400',
+    },
+    {
       id: 'slate-dark',
       name: 'Slate Dark (Default)',
       desc: 'Balanced deep slate canvas with indigo accents.',
@@ -62,13 +85,6 @@ export const UISettingsModal: React.FC<UISettingsModalProps> = ({
       desc: 'Clean paper-white layout for daytime practice.',
       icon: Sun,
       colorClass: 'bg-slate-100 border-blue-600 text-blue-600',
-    },
-    {
-      id: 'academic-emerald',
-      name: 'Academic Emerald',
-      desc: 'Focused dark forest palette with mint accents.',
-      icon: Sparkles,
-      colorClass: 'bg-emerald-950 border-emerald-500/50 text-emerald-400',
     },
     {
       id: 'high-contrast',

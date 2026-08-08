@@ -58,6 +58,10 @@ export default function App() {
       ? 'bg-slate-100 text-slate-900'
       : uiSettings.theme === 'academic-emerald'
       ? 'bg-emerald-950 text-emerald-50'
+      : uiSettings.theme === 'cambridge-navy'
+      ? 'bg-[#0d172a] text-amber-50'
+      : uiSettings.theme === 'oxford-parchment'
+      ? 'bg-[#f8f6f0] text-slate-900'
       : uiSettings.theme === 'high-contrast'
       ? 'bg-black text-amber-300'
       : 'bg-slate-950 text-slate-100';

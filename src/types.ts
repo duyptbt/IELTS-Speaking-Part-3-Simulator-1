@@ -47,7 +47,7 @@ export interface VoiceSettings {
   volume: number;
 }
 
-export type UITheme = 'slate-dark' | 'midnight-navy' | 'studio-light' | 'academic-emerald' | 'high-contrast';
+export type UITheme = 'slate-dark' | 'midnight-navy' | 'studio-light' | 'academic-emerald' | 'cambridge-navy' | 'oxford-parchment' | 'high-contrast';
 export type TextScale = 'standard' | 'comfortable' | 'large';
 export type QuestionCardStyle = 'modern' | 'minimal' | 'focused';
 export type VisualizerStyle = 'bar' | 'equalizer' | 'pulse';
