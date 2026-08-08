@@ -1,0 +1,10 @@
+{
+  "name": "Remix IELTS Speaking Part 3 Simulator",
+  "description": "Create an app that simulates IELTS Speaking Part 3 Test. Use exactly the same structure as the html file you created for Speaking  Part 1. There are two sets of questions, 6 questions each set. The time limit for each question is 45 seconds, instead of 30. The rest will be the same.\n\nSET 1\n(TTS voice: Let\u0027s start with the first topic: School rules)\nWhat kinds of rules are common in a school?\nHow important is it to have rules in a school?\nWhat do you recommend should happen if children break school rules?\n\n\n(TTS voice: Let\u0027s move on to the second topic: Working in the legal profession)\nCan you suggest why many students decide to study law at university? \nWhat are the key personal qualities needed to be a successful lawyer? \nDo you agree that working in the legal profession is very stressful?\n\nSET 2\n(TTS voice: Let\u0027s start with the first topic: Driving a car)\nHow interested are young people in your country in learning to drive?\nWhat are the differences between driving in the countryside and driving in the city?\nDo you consider most drivers where you live to be good drivers?\n\n\n(TTS voice: Let\u0027s move on to the second topic: Electric cars)\nHow popular are electric cars in your country?\nIn what ways could more people be persuaded to buy electric cars?\nDo you think all cars will be electric one day?\n",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
